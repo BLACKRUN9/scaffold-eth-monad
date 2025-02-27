@@ -20,12 +20,13 @@ const scaffoldConfig = {
   // You can get your Alchemy's default API key at https://dashboard.alchemyapi.io
   // It's recommended to store it in an env variable:
   // .env.local for local testing, and in the Vercel/system env config for live apps.
-  alchemyApiKey: process.env.NEXT_PUBLIC_ALCHEMY_API_KEY || "QaMC5Y4Ny2Tr7X1c-YccRvZ39nh2v4GU",
+  alchemyApiKey: process.env.NEXT_PUBLIC_ALCHEMY_API_KEY || "",
+
   // This is ours WalletConnect's default project ID.
   // You can get your own at https://cloud.walletconnect.com
   // It's recommended to store it in an env variable:
   // .env.local for local testing, and in the Vercel/system env config for live apps.
-  walletConnectProjectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || "0ff4893c239b19640e57fe86d9d0cde4",
+  walletConnectProjectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || "0a79da1799af007b9382d4e1d94df703",
 
   // Only show the Burner Wallet when running on hardhat network
   onlyLocalBurnerWallet: true,

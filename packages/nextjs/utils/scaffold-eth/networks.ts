@@ -14,7 +14,7 @@ export type ChainWithAttributes = chains.Chain & Partial<ChainAttributes>;
 
 // Mapping of chainId to RPC chain name an format followed by alchemy and infura
 export const RPC_CHAIN_NAMES: Record<number, string> = {
-  [monadDevnet.id]: "Monad Testnet",
+  [monadDevnet.id]: "monad-devnet",
 };
 
 export const getAlchemyHttpUrl = (chainId: number) => {
